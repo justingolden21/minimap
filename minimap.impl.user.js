@@ -75,7 +75,7 @@ const { html, render } = mlp_uhtml;
     });
     rPlaceTemplateNames.push(templateName);
   };
-  addRPlaceTemplate("acc-alliance", { bot: true, mask: true });
+  addRPlaceTemplate("sdsu", { bot: true, mask: true });
   addRPlaceTemplate("fsu", { bot: true, mask: true });
   let rPlaceTemplateName;
   let rPlaceTemplate;
