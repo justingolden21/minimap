@@ -15,12 +15,12 @@
 
 const _TamperRoot = this;
 (async function () {
-  // Updater
-  GM.xmlHttpRequest({
-    method: "GET",
-    url: `https://raw.githubusercontent.com/ApionXD/minimap/d/main/minimap.impl.user.js?t=${new Date().getTime()}`,
-    onload: function (res) {
-      new Function(res.responseText)(_TamperRoot);
-    },
-  });
+	// Updater
+	GM.xmlHttpRequest({
+		method: 'GET',
+		url: `https://raw.githubusercontent.com/justingolden21/minimap/d/main/minimap.impl.user.js?t=${new Date().getTime()}`,
+		onload: function (res) {
+			new Function(res.responseText)(_TamperRoot);
+		},
+	});
 })();
